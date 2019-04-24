@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.6em;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#city .box .current {
+  color: red;
+}
+
+/* !Header */
+
+header {
+  min-height: 250px;
+  background-image: url("flag.jpg");
+}
+
+#wording {
+  text-align: center;
+  height: 50px;
+  background: rgba(156, 156, 156, 0.7);
+  margin-top: 100px;
+  border: rgba(156, 156, 156, 0.7);
+  border-radius: 8px;
+}
+
+#wording h1 {
+  padding-top: 4px;
+}
+
+/* !city */
+
+#city {
+  min-height: 30px;
+  background: rgb(35, 54, 83);
+  text-align: center;
+}
+
+#city ul {
+  word-spacing: 5em;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#city li {
+  display: inline;
+}
+
+#city a {
+  color: white;
+  padding: 0px 30px;
+  text-decoration: none;
+  /* border-right: white 3px solid; */
+}
+
+/* ! Info */
+
+#info {
+  min-height: 500px;
+  text-align: center;
+  background-image: url("kang.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#info h2 {
+  color: white;
+  font-size: 25px;
+  padding-top: 200px;
+}
+
+#info p {
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+/*  ! Sydney */
+
+#sydney {
+  text-align: center;
+}
+
+#sydney h1 {
+  font-size: 50px;
+}
+
+#sydney #sydneyImage {
+  border: rgb(35, 54, 83) 3px solid;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  min-height: 500px;
+  background-image: url("sydney.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#sydney p {
+  margin: auto;
+  /* border: 1px solid white; */
+  width: 70%;
+  padding-top: 50px;
+}
+
+/* ! Melbourne */
+
+#melbourne {
+  text-align: center;
+}
+
+#melbourne h1 {
+  font-size: 50px;
+}
+
+#melbourne #melbourneImage {
+  border: rgb(35, 54, 83) 3px solid;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  min-height: 500px;
+  background-image: url("melbourne.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#melbourne p {
+  margin: auto;
+  /* border: 1px solid white; */
+  width: 70%;
+  padding-top: 300px;
+}
+
+/* ! Goldcoast */
+
+#goldcoast {
+  text-align: center;
+}
+
+#goldcoast h1 {
+  font-size: 50px;
+}
+
+#goldcoast #goldcoastImage {
+  border: rgb(35, 54, 83) 3px solid;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  min-height: 500px;
+  background-image: url("goldcoast.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#goldcoast p {
+  margin: auto;
+  /* border: 1px solid white; */
+  width: 70%;
+  padding-top: 50px;
+}
+
+/*  ! Footer */
+
+footer {
+  margin-top: 10px;
+  background: lightgrey;
+  text-align: center;
+}
+
+footer h3,
+footer p {
+  display: inline;
+  vertical-align: top;
+}
+
+/* ! Media qurie */
+
+@media (max-width: 1080px) {
+  #city li {
+    float: none;
+    display: block;
+  }
+
+  footer {
+    dispaly: inherit;
+  }
+}
